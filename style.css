@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Pushster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal&display=swap');
+body{
+    font-family: 'Playfair Display', serif;
+}
+::selection{
+    background-color: #eb9f3d;
+    color: #fff;
+}
+.w-90{
+    width: 90%;
+}
+.w-70{
+    width: 70%;
+}
+.w-30{
+    width: 30%;
+}
+.w-25{
+    width: 25%;
+}
+.bg-gray{
+    background-color: rgb(221, 217, 217);
+}
+.border{
+   border: 1px solid black;
+}
+.col-md-6{
+    padding: 0;
+}
+.row{
+    margin: 0;
+    padding: 0;
+}
+.w-33{
+    width: 33%;
+}
+.font-0{
+    font-size: 0.8rem;
+}
+.font{
+    font-size: 1.1rem;
+}
+.font-five-rem{
+    font-size: 5rem;
+}
+.font-1-5-rem{
+    font-size: 1.5rem;
+}
+.container-fluid{
+    padding: 0;
+    opacity: 1;
+}
+.btn-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 1.3rem;
+}
+.mt-18{
+    margin-top: 14%;
+}
+.bg-wood{
+    background-color:burlywood;
+}
+.logo img{
+width: 100px;
+height: 60px;
+margin: 0;
+}
+ul{
+    margin-top: 8px;
+    list-style: none;
+}
+.navbar{
+    padding: 0;
+}
+ul li a{
+    color: #fff;
+}
+ul li a:hover{
+    text-decoration: underline;
+ color: #eb9f3d;
+}
+.row{
+    margin: 0;
+}
+nav input{
+    border: 1px solid burlywood;
+
+    height: 40px;
+    margin-top: 7px;
+}
+/* navbar ended here */
+.background-image{
+background-image: url(back-img//asldjskd0.png);
+height: 650px;
+width: 100%;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+.background-image h1{
+    font-size: 8rem;
+    font-family: 'Island Moments', cursive;
+}
+.background-image h5{
+    font-size: 1.3rem;
+    font-family: 'Pushster';
+}
+.background-image p{
+    font-family: 'Playfair Display', serif;
+
+}
+.btn-outline-lightbrown{
+    border:2px solid #eb9f3d;
+    color: white;
+}
+.btn-outline-lightbrown:hover{
+    background-color:#eb9f3d;
+}
+/* manual responsive */
+.images-of-main-box img{
+    width: 100%;
+    height: 55vh;
+}
+.circle{border-radius: 50%;}
+/* manual responsive */
+.background-sec{
+    background-image: url(back-img//Always-fresh2.jpg);
+    width: 100%;
+    height: 750px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.style-font{
+    font-family: 'The Nautigal', cursive;
+}
+
+.row-number-two img{
+    box-shadow: black ;
+border-top-right-radius: 15px ;
+border-bottom-right-radius: 15px;
+}
+.mt-8{
+    margin-top: 6%;
+}
+.mt-20{
+    margin-top: 20%;
+}
+.col-6{
+    padding: 0px;
+}
+.ml-7{
+    margin-left: 9rem;
+}
+.ml-50{
+    margin-left:7%;
+}
+.sec-img img{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style:none;
+}
+.container-fluid-main{
+    padding: 7px 0;
+    font-family: 'Playfair Display', serif;
+    background-color: rgb(41, 40, 40);
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    padding-left: 35px;
+    margin-top: 10px;
+    text-decoration: double underline;
+}
+.row-main{
+    display: flex;
+    
+}
+.container-fluid a{
+    color: white;
+    text-decoration: none;
+}
+@media only screen and (max-width: 974px){
+    .images-of-main-box img{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        margin: 0 auto;
+    }
+}
